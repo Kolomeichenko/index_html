@@ -90,7 +90,7 @@ main {
     width: 90%;
     margin: 0 auto;
     border: 1px solid #ffffff;
-    background-image: url('./img/img1.jpg');
+    /* background-image: url('./img/img1.jpg'); */
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -227,6 +227,7 @@ form button {
     background-color: #c2c2c2;
     border: none;
     border-radius: 5px;
+    margin-top: 10px;
 }
 form button:hover{
     color:aqua; 
@@ -240,32 +241,18 @@ form input {
     margin-right: 10px;
 }
 @media(max-width: 960px) {
-    body {
+    /* body {
      background-image: url(img/back7.jpg);   
-    }
-    .controls {
-        background:none;
-    }
-    .main-title {
-        background:none;
-    }
+    } */
+    
     .content {
         flex-direction: column;
         align-items: center;
     }
-    main {
-        background: none;
-    }
-    .wrap {
-        background-image: url(img/back.jpg);
-    }
     .mail {
         margin-bottom: 15px;
     }
-    .nav {
-        background: none;
-        border: none;
-    }
+    
     .nav ul {
         flex-direction: column;
     }
@@ -274,7 +261,6 @@ form input {
         
     }
     .slider {
-        border: none;
         background-image:none
 
     }
@@ -290,7 +276,7 @@ form input {
         display: none;
     }
     footer {
-        background-image: url(img/back.jpg);
+        /* background-image: url(img/back.jpg); */
     }
     .footer-item {
         width: 100%;
